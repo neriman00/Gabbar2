@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gabbar</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
+        <link rel="stylesheet" href="css/gabbar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                    <div class="col1">
+                        <div class="logo">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAAAeCAYAAAA8cnC3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTcxQTk2QjMzNTM4MTFFOUEzNTA5MTAxRDExRkIwNTUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTcxQTk2QjQzNTM4MTFFOUEzNTA5MTAxRDExRkIwNTUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNzFBOTZCMTM1MzgxMUU5QTM1MDkxMDFEMTFGQjA1NSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNzFBOTZCMjM1MzgxMUU5QTM1MDkxMDFEMTFGQjA1NSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlS704gAAAWwSURBVHja7FpdbBRVFL67tNt2i9AtKkGjhJ8Hg1Yxq4IGAtVWTIokkhRDqPqg7soTJhpbHjT6QreYoFGUsv4k1n9qKolAgNYESoMK2VQxRR7aNYh/RHTbtNul25/1O+NdOjM7s3Nn75QX5yRfZnfmnDvn3m/uOefeGc/fyx9jBcg24GUgA3wEfAn8BowCw8BIZW/bJHNFSDwFkLAD2G5ybYwI4EgBSX5uCOgHeoCvQFDKHfrCSVgDHJO8J82UDSDimDv8hZHwNXC/A/cdpNk07/sPW0WUM5lMCId61amYx+NpmmnbqyHwjxXZ0H/SIQJIKoBqoFVQPwDUFHgvGdurIl5BvZXAuw7fe8QNROIkULz6xuH7/gUcd4f/PymyuPaJLp46JR8DX7jDn5+EKuAIsCBvVp8/l5U88RArvuMW5ikvY5lkik0O/MJSb3Uw38bVzLcqeEU33RNjY3sOML622I3qqC7D2kghqIrdCUqcQBTJM26R0Eg/xOP9jNpCv577aekrdCMqPZJ2XI+qCoQ4/oetSHgU+MyyrAIB1+zdzooW3qA5X7xsCSt5YCUb7+tXfmdl/IdzytEfCfWVrlt1mnfESGhgGuF0mJzPk2w7dZ3N2oZg2+SELX43ki82fQ3qCoEuXO9UneuyygkviBBAMnvXszkEXCHIX8Z8d1cZJ6F5FfE8nVLLXjhvVtUEDQZRPchO2sr62mhVnXl1yi0iBBSvv0fzlCtP+tkBNvrpQQVTlxKmtpfbO9/mP0mpHWjiaDd50vJJlNt2mXRe1jbqgK8B0ZzwMBARTSSzli3KIWB4yyvTexcfHGYVHTuVGaGXiaO9F0F1LXUeU1gfeyO6wQvmcUMdAlp46FD3oQbnFsvYUqzHsRbHLoM8YcdXhUCzXEUk+IDX7GRzSsSaDaND3VoHLw6x9HdnWEn1CiPzUn6MoCN6xxcLuhDTx3z8b+EDY9WeHdu4SbK14ysl4k1WM+EpYInU0nsomXtuZNRQd87+SDMOayWrOrN416ULC0EZW14VhSR9bRcJRxvstkqVjjonUHgaP3BKo+O7d3mOXcnW9ZTM1+oGJKoamBrJLQb9oMdtPLFGhIUc8DUhQkKV3Z5Onv1Z89+/uY5lhpPKOoBKV39jA/Nem5uPZi24Tn9KU0rSZpZgxyhmB2Eb09XyAYEBELWtd8hXocWa3/ZMwFM/vnlAMxvKQ5sU5F1bzPabVg58AWVndd5JNT1/2oMG1VCCEqpB3hGy5QuxoEO+akP18bkRTmCcdVeEiYRzfIPOliR3vM/mvP684ROvVEHnf89ZR0z+eUmvFlHV10HBmlxT0+e53uKwrYyvagJqVKRTO3FaJxwupLGpvgtsqOGlnHVB+vSPbPjF3Sx9sjfHhkpXIsegvlZvHwhVHBa6tJXQImkb5bNB1lerdUOASHgD+KMgVlGKXt75ORus3cb+ufNxBSOhV5VwVbT0ZkP94XAzm+g//63BwDSJLha5fq3BQivG1wBhWVscE1wvKumrURUWUyf77Ju11UC33dZQbrKxIz0s3XFCGWB1FaTPD8novuwGnpLkKnvbqBMB3lkpoRhdaDuitjL3MAlLAc+aoYT6zdoJ4DbgILBQpBFebrIinpBp1axUQNdX5uSJzGhKIUqdMlRPm7TItCNq6yQBSnsgwGgXtQ+g/YitwDNWpWvZxtqc3VNDxkHASPN7mpkCucBcmSYkz4v++cDtPJFQ7igHbgTuAh70bakuKa1fZ7qTmt1TSu3ZxyZ6ftLkZ2ApwtGv+r2j/6NQOPIU+PEXvah/E2jw3noT89Xdp5z0Yh0wxbcrJk6e0Q9+VvaDgEf4FHdJkCAhK08bVA9WsgIknHKD0LR4Je3f4TlEVJ5zCXCeBIZBbeVLeKtvT8PQ3eUO+QyQwImgLyfoowDaE6FEMMhB35/Sm7RF0Im6w20s/wowAPDRaG8foggZAAAAAElFTkSuQmCC" alt="">
+                        </div>
+                    </div>
+                        <div class="col8 menu">
+                             <ul>
+                                <li>Home</li>
+                                <li>about</li>
+                                <li>services</li>
+                                <li>portfolio</li>
+                                <li>reviews</li>
+                                <li>contact</li>
+                                <li class="getbutton"><a href="#">get started now</a></li>
+                            </ul>
+                      </div>
+                  </div>
+        </header>
+        <div class="clear"></div>
+        <section class="about">
+          
+            <div class="wrapper">
+                <div class="col6">
+                    <div class="about-left">
+                        <h1>Albert Nouwen</h1>
+                        <p>Hello, I’m a Albert Nouwen, web-developer based on Paris. I have rich experience in web site design & building and customization.</p>
+                     <div class="cvButton">
+                        <a href="#">Download Cv</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col6">
+                    <div class="about-right">
+                        <img src="http://wowthemez.com/templates/gabbar/img/hero-bg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <section class="section">
+            <div class="wrapper">
+                <div class="col4">
+                    <div class="col5 centerImg">
+                        <img src="http://wowthemez.com/templates/gabbar/img/icon-1.png" alt="">
+                    </div>
+                        <div class="clear"></div>
+                        <div class="center">
+                        <h1>Design Research</h1>
+                        <p>Technology and design are the core of success for real estate related businesses. Leverage our years of experience to reach your agency’s full potential.</p>
+                    </div>
+                    </div>
+                    <div class="col4 image">
+                    <div class="col5 centerImg">
+                        <img src="http://wowthemez.com/templates/gabbar/img/icon-2.png" alt="">
+                            
+                    </div>
+                    <div class="clear"></div>
+                    <div class="center">
+                    <h1>Web Development</h1>
+                    <p>Technology and design are the core of success for real estate related businesses. Leverage our years of experience to reach your agency’s full potential.</p>
+                    </div>
+                    </div>
+                    <div class="col4">
+                    <div class="col5 centerImg">
+                        <img src="http://wowthemez.com/templates/gabbar/img/icon-3.png" alt="">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="center">
+                    <h1>Marketing Strategy</h1>
+                    <p>Technology and design are the core of success for real estate related businesses. Leverage our years of experience to reach your agency’s full potential.</p>
+                     </div>
+                  </div>
+                </div>
+        </section>
+    </body>
+</html>

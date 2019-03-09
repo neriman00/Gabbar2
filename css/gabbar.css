@@ -1,0 +1,63 @@
+.header{
+    padding: 15px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+.header .menu ul li{
+    display: inline-block;
+    padding: 15px;
+  
+}
+.header .menu{
+    float: right;
+}
+.getbutton a{
+    background: #ed305d;
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: white;
+}
+.about{
+    height: 768px;
+    position: relative;
+    background: #ffc10f;
+}
+.about .about-left{
+    width: 41%;
+    position: absolute;
+    top:50%;
+}
+.about .about-left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about .about-left {
+    margin-top: 30px;
+}
+.about .about-left .cvButton{
+    margin-top: 20px;
+    
+}
+.about .about-left a{
+    background: black;
+    color: white;
+    padding: 10px 30px;
+}
+.about .about-right{
+    margin-top: 80px;
+}
+.wrapper{
+    padding-top: 20px;
+}
+.wrapper .center{
+    text-align: center;
+}
+.wrapper .centerImg{
+    margin-left: 100px;
+}
+.wrapper .image{
+    background: #ffc10f;
+}
