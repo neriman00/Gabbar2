@@ -5,6 +5,7 @@
     top: 0;
     right: 0;
     z-index: 5;
+    background-color: white;
 }
 .header .menu ul li{
     display: inline-block;
@@ -60,4 +61,45 @@
 }
 .wrapper .image{
     background: #ffc10f;
+}
+.about-me {
+    height: 840px;
+    margin-top: 90px;
+    background: rgb(255, 193, 15);
+}
+.about-me .a{
+    font-size: 100px;
+    color: white;
+}
+.about-me .about-menu h1{
+    font-size:50px;
+    color: white;
+    margin-top: 200px;
+}
+.about-me .about-menu p{
+    margin-top: 40px;
+}
+.about-me .cvButton{
+    margin-top: 30px;
+}
+.about-me a{
+    background: black;
+    color: white;
+    padding: 10px 30px;
+}
+.wrapper .h1 h1{
+    text-align: center;
+    font-size: 60px;
+    margin:40px 0;
+}
+.wrapper .img{
+    margin-bottom: 10px;
+}
+.wrapper .center-h2 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.wrapper .center-h2 p{
+    font-size: 22px;
+    margin-bottom: 10px;
 }
